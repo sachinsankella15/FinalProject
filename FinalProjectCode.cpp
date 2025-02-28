@@ -89,7 +89,7 @@ private:
     }
 };
 
-const uint32_t SHA256::K[64] = { /* Constants remain unchanged */ };
+const uint32_t SHA256::K[64] = { };
 
 int main() {
     ifstream file("test.txt");
